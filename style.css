@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color:wheat;
+    height:40rem;
+    width:36rem;
+}
+.score-container{
+    height: 4rem;
+    width: 36rem;
+    background-color: rgb(100, 100, 106);
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-container{
+    height: 36rem;
+    width: 36rem;
+    display: grid;
+    grid-template:repeat(25,1fr)/repeat(25,1fr);
+    background-image: url('/Users/harshkumar/web dev/Snake game/bground.jpg');
+}
+.food{
+    background-color: rgb(243, 236, 11);
+    border-radius: 50%;
+}
+.snake{
+    background-color: red;
+    border-radius: 40%;
+}
