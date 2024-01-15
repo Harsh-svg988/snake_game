@@ -28,7 +28,7 @@ body{
     width: 36rem;
     display: grid;
     grid-template:repeat(25,1fr)/repeat(25,1fr);
-    background-image: url('bground.jpg');
+    background-image: url('./bground.jpg');
 }
 .food{
     background-color: rgb(243, 236, 11);
